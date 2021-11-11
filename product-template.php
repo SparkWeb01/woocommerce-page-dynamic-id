@@ -7,12 +7,12 @@ get_header(); ?>
 
       <div>
         <?php
-         global $product;
-			   $id = $product->get_id();
+          global $product;
+	  $id = $product->get_id();
         ?>
         
         <?php
-  			  echo do_shortcode('[product_page id="' . $id . '"]');
+  	   echo do_shortcode('[product_page id="' . $id . '"]');
          ?>
       </div>
       	
